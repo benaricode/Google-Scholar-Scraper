@@ -125,7 +125,7 @@
 		        ]);
 
 		        var options = {
-		          title: 'Company Performance',
+		          title: 'Number of papers per year',
 		          hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
 		          vAxis: {minValue: 0}
 		        };
