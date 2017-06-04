@@ -1,5 +1,6 @@
 # Google-Scholar-Scraper
+This is a one page php website to scrape google scholar and chart the number of papers each year with that phrase used in them. 
 
-The purpose of this project is to scrape google scholar and provide some analytics 
+I built this because google scholar does not support that function out of the box like the main web search does.
 
-It will take a string litteral to run a serach on, it will set though each years results and graph them to see trending over time
+Note that using the tool too much too frequently will get your IP address flagged as a robot request and break the tool.
