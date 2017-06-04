@@ -1,14 +1,18 @@
 <?php
-
-function get_or_default($arr, $key, $default) {
-	if(isset($arr[$key])) {
-		return $arr[$key];
-	} else {
-		return $default;
+	function get_or_default($arr, $key, $default) {
+		if(isset($arr[$key])) {
+			return $arr[$key];
+		} else {
+			return $default;
+		}
 	}
-}
-	if(isset($_POST['query'])){
-		searchScholar('Big Data', '2013');
+
+	function searchScholarMinYear($ThingToSearchFor, $year){
+
+	for(;$year < date("Y"); $year++){
+		echo $year." had ".searchScholar($ThingToSearchFor, $year)." number of papers<br>";
+	}
+
 	}
 
 	function searchScholar($ThingToSearchFor, $year){
@@ -65,14 +69,14 @@ function get_or_default($arr, $key, $default) {
 			</ul>
 			<button>Search scholar</button>
 		</form>
-		<?php echo date("Y"); ?>
+	
 
 		<?php if(isset($_POST['query'])){
 		
 		$query = get_or_default($_POST, 'query', '');
 		$startYear = get_or_default($_POST, 'year', '');
 		
-		echo searchScholar($query , $startYear);
+		echo searchScholarMinYear($query , $startYear);
 
 	}?>
 	</body>
