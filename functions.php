@@ -141,7 +141,7 @@
 	<body>
 		<section>
 		<!-- Title heading and information -->
-			<h1>Google Scholar Scaper and graph</h1>
+			<h1>Google Scholar Scraper and graph</h1>
 			<p>
 				This page exists as a way to quickly graph a year over year view of the use of a phrase in papers, this is useful to get a sense of when a field boomed
 
