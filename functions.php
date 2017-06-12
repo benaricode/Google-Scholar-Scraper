@@ -136,6 +136,21 @@
    			</script>
    		<!-- Ends the php if statement -->
 		<?php }?>
+
+		<!-- some basic css styles to improve the look of the page -->
+		<style>
+			* {
+				text-align: center;
+				color: DarkSlateGray;
+			}
+
+			li{
+				list-style: none;
+			}
+			input {
+				text-align: left;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -147,7 +162,9 @@
 
 				note, it may take awhile for the page to reload after clicking submit <br><br>
 
-				Note if you send off too many requests too quickly google will think you are a robot and get really mad and break everything....
+				Note if you send off too many requests too quickly google will think you are a robot and get really mad and break everything.... <br><br>
+
+				This should fixitself after a few days
 
 			</p>
 		</section>
